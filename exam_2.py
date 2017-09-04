@@ -3,12 +3,6 @@
 
 def combine_alternately (list1, list2) :
     new_list = []
-    for e1, e2 in zip(list1, list2) :
-        new_list += [e1, e2]
-    return new_list
-
-def combine_alternately2 (list1, list2) :
-    new_list = []
     i, j = 0, 0
     while i < len(list1) or j < len(list2) :
         if i < len(list1) :
@@ -23,4 +17,4 @@ if __name__ == '__main__' :
     list1, list2 = ['1', '2', '3', '4'], ['a', 'b', 'c']
 
     print combine_alternately(list1, list2)
-    print combine_alternately2(list1, list2)
+

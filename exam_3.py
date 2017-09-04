@@ -7,4 +7,7 @@ def fibonacci_series (size=100) :
         fibos.append(fibos[-1] + fibos[-2])
     return fibos
 
-print fibonacci_series(size=100)
+if __name__ == '__main__' :
+    
+    print fibonacci_series()
+

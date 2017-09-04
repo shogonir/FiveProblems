@@ -11,6 +11,9 @@ def max_num_combination (num_list) :
             max_num = num
     return max_num
 
-num_list = [50, 2, 1, 9]
+if __name__ == '__main__' :
 
-print max_num_combination(num_list)
+    num_list = [50, 2, 1, 9]
+    
+    print max_num_combination(num_list)
+
